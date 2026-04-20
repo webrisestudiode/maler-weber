@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt – Weber Malerbetrieb München | Kostenloser Kostenvoranschlag</title>
+  <meta name="description" content="Jetzt Kontakt aufnehmen mit Weber Malerbetrieb München. Kostenloser Kostenvoranschlag, Projektanfrage oder Bewerbung – wir melden uns in 24 Stunden.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Info Banner -->
+  <div class="info-banner">
+    <i class="fa-solid fa-paint-roller"></i>
+    Kostenloser Kostenvoranschlag – Jetzt anfragen:&nbsp;<a href="tel:089123456">089 123456</a>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon"><i class="fa-solid fa-paint-roller"></i></div>
+        Weber <span>Malerbetrieb</span>
+      </a>
+      <button class="mobile-menu-btn" aria-label="Menü öffnen">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav class="nav-links">
+        <a href="index.html">Startseite</a>
+        <a href="leistungen.html">Leistungen</a>
+        <a href="ueber-uns.html">Über uns</a>
+        <a href="referenzen.html">Referenzen</a>
+        <a href="karriere.html">Karriere</a>
+        <a href="kontakt.html" class="btn btn-primary btn-nav-cta active">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Inner Hero -->
+  <section class="inner-hero">
+    <div class="container">
+      <span class="section-eyebrow" style="background:rgba(255,255,255,0.2); color:white; margin-bottom:16px; display:inline-block;">Wir freuen uns auf Ihre Anfrage</span>
+      <h1>Jetzt Kontakt aufnehmen</h1>
+      <p>Kostenloser Kostenvoranschlag, Projektberatung oder Partnerschaft – wir sind für Sie da.</p>
+    </div>
+  </section>
+
+  <!-- Kontakt Schnellinfos -->
+  <section style="padding:48px 0; background:var(--color-light); border-bottom:1px solid var(--color-gray-light);">
+    <div class="container">
+      <div class="grid grid-4">
+        <div class="why-card animate-on-scroll" style="padding:28px 22px;">
+          <div class="why-card-icon" style="width:56px; height:56px; font-size:1.4rem;"><i class="fa-solid fa-phone"></i></div>
+          <h3 style="font-size:1rem;">Telefon</h3>
+          <p><a href="tel:089123456" style="color:var(--color-primary); font-weight:700;">089 123456</a><br><span style="font-size:0.88rem; color:var(--color-gray);">Mo–Fr 7:00–18:00</span></p>
+        </div>
+        <div class="why-card animate-on-scroll" style="padding:28px 22px; transition-delay:0.08s;">
+          <div class="why-card-icon" style="width:56px; height:56px; font-size:1.4rem;"><i class="fa-solid fa-envelope"></i></div>
+          <h3 style="font-size:1rem;">E-Mail</h3>
+          <p><a href="mailto:info@weber-malerbetrieb-beispiel.de" style="color:var(--color-primary); font-weight:700; font-size:0.88rem;">info@weber-malerbetrieb-beispiel.de</a></p>
+        </div>
+        <div class="why-card animate-on-scroll" style="padding:28px 22px; transition-delay:0.16s;">
+          <div class="why-card-icon" style="width:56px; height:56px; font-size:1.4rem;"><i class="fa-solid fa-location-dot"></i></div>
+          <h3 style="font-size:1rem;">Adresse</h3>
+          <p style="font-size:0.93rem;">Malerstraße 12<br>80331 München</p>
+        </div>
+        <div class="why-card animate-on-scroll" style="padding:28px 22px; transition-delay:0.24s;">
+          <div class="why-card-icon" style="width:56px; height:56px; font-size:1.4rem;"><i class="fa-brands fa-whatsapp" style="color:var(--color-whatsapp);"></i></div>
+          <h3 style="font-size:1rem;">WhatsApp</h3>
+          <p><a href="https://wa.me/4989123456?text=Hallo%20Weber%20Malerbetrieb..." target="_blank" style="color:var(--color-whatsapp); font-weight:700;">Direkt schreiben</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projektanfrage Formular (mehrstufig) -->
+  <section class="section-padding">
+    <div class="container" style="max-width:820px;">
+      <div class="section-header animate-on-scroll">
+        <span class="section-eyebrow">Schritt für Schritt</span>
+        <h2>Kostenlosen Kostenvoranschlag anfragen</h2>
+        <p>Füllen Sie das Formular in 3 einfachen Schritten aus – wir melden uns innerhalb von 24 Stunden.</p>
+      </div>
+
+      <div class="form-card animate-on-scroll">
+
+        <!-- Progress Bar -->
+        <div id="form-content">
+          <div class="form-progress">
+            <div class="form-step-indicator">
+              <div class="step-circle active" id="step-circle-1">1</div>
+              <div class="step-label active" id="step-label-1">Ihre Leistung</div>
+            </div>
+            <div class="form-step-indicator">
+              <div class="step-circle" id="step-circle-2">2</div>
+              <div class="step-label" id="step-label-2">Ihr Projekt</div>
+            </div>
+            <div class="form-step-indicator">
+              <div class="step-circle" id="step-circle-3">3</div>
+              <div class="step-label" id="step-label-3">Ihre Daten</div>
+            </div>
+          </div>
+
+          <form id="multi-step-form" action="https://formspree.io/f/XXXXXXXX" method="POST">
+
+            <!-- Schritt 1: Leistung wählen -->
+            <div class="form-step active" id="step-1">
+              <h3 style="margin-bottom:8px; font-size:1.3rem;">Welche Leistung benötigen Sie?</h3>
+              <p style="color:var(--color-gray); margin-bottom:28px; font-size:0.95rem;">Wählen Sie die gewünschte Leistung aus – mehrere Leistungen können Sie im nächsten Schritt beschreiben.</p>
+              <div class="service-selector">
+                <div class="service-option">
+                  <input type="radio" name="leistung" id="srv-innen" value="Innenraumgestaltung" required>
+                  <label for="srv-innen" class="service-option-label">
+                    <i class="fa-solid fa-house"></i>
+                    Innenraumgestaltung
+                  </label>
+                </div>
+                <div class="service-option">
+                  <input type="radio" name="leistung" id="srv-fassade" value="Fassadenarbeiten">
+                  <label for="srv-fassade" class="service-option-label">
+                    <i class="fa-solid fa-building"></i>
+                    Fassadenarbeiten
+                  </label>
+                </div>
+                <div class="service-option">
+                  <input type="radio" name="leistung" id="srv-tapezier" value="Tapezierarbeiten">
+                  <label for="srv-tapezier" class="service-option-label">
+                    <i class="fa-solid fa-scroll"></i>
+                    Tapezierarbeiten
+                  </label>
+                </div>
+                <div class="service-option">
+                  <input type="radio" name="leistung" id="srv-lack" value="Lackierarbeiten">
+                  <label for="srv-lack" class="service-option-label">
+                    <i class="fa-solid fa-spray-can-sparkles"></i>
+                    Lackierarbeiten
+                  </label>
+                </div>
+                <div class="service-option">
+                  <input type="radio" name="leistung" id="srv-boden" value="Bodenbeläge">
+                  <label for="srv-boden" class="service-option-label">
+                    <i class="fa-solid fa-layer-group"></i>
+                    Bodenbeläge
+                  </label>
+                </div>
+                <div class="service-option">
+                  <input type="radio" name="leistung" id="srv-daemm" value="Wärmedämmung">
+                  <label for="srv-daemm" class="service-option-label">
+                    <i class="fa-solid fa-temperature-low"></i>
+                    Wärmedämmung
+                  </label>
+                </div>
+              </div>
+              <div class="form-nav" style="justify-content:flex-end;">
+                <button type="button" class="btn btn-primary btn-next" id="next-step-1">
+                  Weiter <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Schritt 2: Projekt Details -->
+            <div class="form-step" id="step-2">
+              <h3 style="margin-bottom:8px; font-size:1.3rem;">Erzählen Sie uns von Ihrem Projekt</h3>
+              <p style="color:var(--color-gray); margin-bottom:28px; font-size:0.95rem;">Je mehr Details, desto genauer können wir Ihnen einen Kostenvoranschlag erstellen.</p>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="dringlichkeit">Wie dringend ist Ihr Anliegen?</label>
+                  <select class="form-control" name="dringlichkeit" id="dringlichkeit">
+                    <option value="">Bitte wählen</option>
+                    <option>So schnell wie möglich</option>
+                    <option>Diese Woche</option>
+                    <option>In 1–3 Monaten</option>
+                    <option>Planung / Beratung</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="flaeche">Ungefähre Fläche?</label>
+                  <select class="form-control" name="flaeche" id="flaeche">
+                    <option value="">Bitte wählen</option>
+                    <option>Unter 50 m²</option>
+                    <option>50–150 m²</option>
+                    <option>150–300 m²</option>
+                    <option>Über 300 m²</option>
+                    <option>Noch unklar</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="objekt">Um welches Objekt handelt es sich?</label>
+                <select class="form-control" name="objekt" id="objekt">
+                  <option value="">Bitte wählen</option>
+                  <option>Wohnung</option>
+                  <option>Haus</option>
+                  <option>Gewerbe</option>
+                  <option>Neubau</option>
+                  <option>Sonstiges</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="projektbeschreibung">Beschreiben Sie Ihr Projekt so genau wie möglich</label>
+                <textarea class="form-control" name="projektbeschreibung" id="projektbeschreibung" rows="5" placeholder="z.B. Wir möchten unser Wohnzimmer (ca. 30m²) neu streichen. Die Wände haben aktuell eine alte Raufasertapete, die entfernt werden soll..."></textarea>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="fotos">Fotos hochladen (optional)</label>
+                <input type="file" class="form-control" name="fotos" id="fotos" accept="image/*" multiple style="padding:10px 14px;">
+                <p style="font-size:0.82rem; color:var(--color-gray); margin-top:6px;"><i class="fa-solid fa-circle-info"></i> Mehrere Fotos möglich (JPG, PNG, max. 10MB)</p>
+              </div>
+
+              <div class="form-nav">
+                <button type="button" class="btn btn-prev" id="prev-step-2">
+                  <i class="fa-solid fa-arrow-left"></i> Zurück
+                </button>
+                <button type="button" class="btn btn-primary btn-next" id="next-step-2">
+                  Weiter <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Schritt 3: Kontaktdaten -->
+            <div class="form-step" id="step-3">
+              <h3 style="margin-bottom:8px; font-size:1.3rem;">Ihre Kontaktdaten</h3>
+              <p style="color:var(--color-gray); margin-bottom:28px; font-size:0.95rem;">Damit wir Sie für den kostenlosen Kostenvoranschlag kontaktieren können.</p>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="vorname">Vorname *</label>
+                  <input type="text" class="form-control" name="vorname" id="vorname" placeholder="Max" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="nachname">Nachname *</label>
+                  <input type="text" class="form-control" name="nachname" id="nachname" placeholder="Mustermann" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="telefon">Telefonnummer *</label>
+                  <input type="tel" class="form-control" name="telefon" id="telefon" placeholder="089 12345678" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="email">E-Mail *</label>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="max@email.de" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="projektadresse">Adresse des Projekts</label>
+                <input type="text" class="form-control" name="projektadresse" id="projektadresse" placeholder="Musterstraße 1, 80331 München">
+              </div>
+
+              <div class="form-group">
+                <div class="form-check">
+                  <input type="checkbox" id="datenschutz" name="datenschutz" required>
+                  <label for="datenschutz">Ich habe die <a href="datenschutz.html" target="_blank">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage zu. *</label>
+                </div>
+              </div>
+
+              <div class="form-nav">
+                <button type="button" class="btn btn-prev" id="prev-step-3">
+                  <i class="fa-solid fa-arrow-left"></i> Zurück
+                </button>
+                <button type="submit" class="btn btn-primary btn-lg" id="submit-anfrage-btn" style="flex:1; justify-content:center;">
+                  <i class="fa-solid fa-paper-plane"></i> Jetzt kostenlos anfragen
+                </button>
+              </div>
+            </div>
+
+          </form>
+        </div>
+
+        <!-- Bestätigung -->
+        <div id="form-success" class="form-success">
+          <div class="form-success-icon"><i class="fa-solid fa-circle-check"></i></div>
+          <h2>Vielen Dank!</h2>
+          <p>Ihre Anfrage ist bei uns eingegangen. Wir melden uns <strong>innerhalb von 24 Stunden</strong> für einen kostenlosen Kostenvoranschlag bei Ihnen.</p>
+          <p style="margin-top:14px; font-size:0.95rem; color:var(--color-gray);">Oder rufen Sie uns direkt an: <a href="tel:089123456" style="color:var(--color-primary); font-weight:700;">089 123456</a></p>
+          <a href="index.html" class="btn btn-primary" style="margin-top:28px;" id="success-home-btn">
+            <i class="fa-solid fa-house"></i> Zurück zur Startseite
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Hinweis: Bewerbungen -->
+  <section class="section-padding bg-light">
+    <div class="container" style="max-width:820px;">
+      <div class="section-header animate-on-scroll">
+        <span class="section-eyebrow">Jobs &amp; Karriere</span>
+        <h2>Werden Sie Teil unseres Teams</h2>
+        <p>Wir suchen engagierte Fachkräfte und Quereinsteiger. Faire Bezahlung, familiäres Betriebsklima und echte Entwicklungsmöglichkeiten warten auf Sie.</p>
+      </div>
+      <div class="animate-on-scroll" style="background:white; border-radius:20px; border:1px solid var(--color-gray-light); box-shadow:0 6px 24px rgba(0,0,0,0.08); padding:48px 44px; text-align:center;">
+        <div style="width:80px; height:80px; border-radius:50%; background:var(--color-primary-xlight); color:var(--color-primary); display:flex; align-items:center; justify-content:center; font-size:2.2rem; margin:0 auto 24px;">
+          <i class="fa-solid fa-hard-hat"></i>
+        </div>
+        <h3 style="margin-bottom:14px;">Offene Stellen &amp; Bewerbungsformular</h3>
+        <p style="color:var(--color-gray); max-width:520px; margin:0 auto 28px; font-size:1.02rem;">
+          Alle aktuellen Stellenangebote, Vorteile als Mitarbeiter und das Bewerbungsformular finden Sie auf unserer Karriere-Seite.
+        </p>
+        <a href="karriere.html" class="btn btn-primary btn-lg" id="karriere-link-btn">
+          <i class="fa-solid fa-arrow-right"></i> Zur Karriere-Seite
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">
+            <div class="logo-icon"><i class="fa-solid fa-paint-roller"></i></div>
+            Weber <span>Malerbetrieb</span>
+          </div>
+          <p class="footer-desc">Ihr professioneller Malerbetrieb in München und Umgebung. Qualität, Zuverlässigkeit und faire Festpreise seit 1995.</p>
+        </div>
+        <div>
+          <h4>Kontakt</h4>
+          <div class="footer-contact-item"><i class="fa-solid fa-location-dot"></i><span>Malerstraße 12<br>80331 München</span></div>
+          <div class="footer-contact-item"><i class="fa-solid fa-phone"></i><a href="tel:089123456">089 123456</a></div>
+          <div class="footer-contact-item"><i class="fa-solid fa-envelope"></i><a href="mailto:info@weber-malerbetrieb-beispiel.de">info@weber-malerbetrieb-beispiel.de</a></div>
+          <div class="footer-contact-item"><i class="fa-solid fa-clock"></i><span>Mo–Fr: 7:00–18:00 Uhr</span></div>
+        </div>
+        <div>
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="leistungen.html">Leistungen</a></li>
+            <li><a href="ueber-uns.html">Über uns</a></li>
+            <li><a href="referenzen.html">Referenzen</a></li>
+            <li><a href="karriere.html">Karriere</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Rechtliches</h4>
+          <ul class="footer-links">
+            <li><a href="impressum.html">Impressum</a></li>
+            <li><a href="datenschutz.html">Datenschutz</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Weber Malerbetrieb München. Diese Website ist ein fiktives Beispielprojekt.
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/4989123456?text=Hallo%20Weber%20Malerbetrieb%2C%20ich%20h%C3%A4tte%20eine%20Anfrage..." target="_blank" class="whatsapp-btn" aria-label="WhatsApp Kontakt">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <div id="cookie-banner" class="cookie-banner">
+    <div>
+      <h4>Wir verwenden Cookies</h4>
+      <p>Um unsere Website optimal zu gestalten, verwenden wir Cookies. <a href="datenschutz.html">Weitere Informationen</a>.</p>
+    </div>
+    <div class="cookie-buttons">
+      <button id="decline-cookies" class="btn btn-outline-white btn-sm">Ablehnen</button>
+      <button id="accept-cookies" class="btn btn-primary btn-sm">Akzeptieren</button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

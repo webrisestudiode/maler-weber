@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karriere – Weber Malerbetrieb München | Jetzt bewerben</title>
+  <meta name="description" content="Werden Sie Teil des Teams von Weber Malerbetrieb München. Faire Bezahlung, familiäres Betriebsklima, Weiterbildung und Firmenwagen. Jetzt bewerben!">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .benefit-card {
+      background: white;
+      border-radius: 16px;
+      padding: 32px 26px;
+      border: 1px solid var(--color-gray-light);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 14px;
+      transition: box-shadow 0.28s, transform 0.28s;
+    }
+    .benefit-card:hover { box-shadow: 0 16px 48px rgba(0,0,0,0.12); transform: translateY(-5px); }
+    .benefit-icon {
+      width: 68px; height: 68px; border-radius: 50%;
+      background: var(--color-primary-xlight);
+      color: var(--color-primary);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.8rem;
+    }
+    .benefit-title { font-size: 1.05rem; font-weight: 700; color: var(--color-dark); }
+    .benefit-text { color: var(--color-gray); font-size: 0.93rem; line-height: 1.65; }
+
+    .job-card {
+      background: white;
+      border-radius: 16px;
+      padding: 30px 28px;
+      border: 1px solid var(--color-gray-light);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      transition: box-shadow 0.28s, transform 0.28s;
+    }
+    .job-card:hover { box-shadow: 0 12px 36px rgba(0,0,0,0.11); transform: translateY(-3px); }
+    .job-card-icon {
+      width: 54px; height: 54px; border-radius: 12px;
+      background: var(--color-primary-xlight);
+      color: var(--color-primary);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.5rem; flex-shrink: 0;
+    }
+    .job-card-body h3 { font-size: 1.1rem; margin-bottom: 6px; }
+    .job-card-body p { color: var(--color-gray); font-size: 0.93rem; margin-bottom: 12px; }
+    .job-tag {
+      display: inline-flex; align-items: center; gap: 5px;
+      background: var(--color-primary-xlight);
+      color: var(--color-primary);
+      padding: 4px 12px; border-radius: 999px;
+      font-size: 0.8rem; font-weight: 600;
+      margin-right: 8px; margin-bottom: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Info Banner -->
+  <div class="info-banner">
+    <i class="fa-solid fa-paint-roller"></i>
+    Kostenloser Kostenvoranschlag – Jetzt anfragen:&nbsp;<a href="tel:089123456">089 123456</a>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon"><i class="fa-solid fa-paint-roller"></i></div>
+        Weber <span>Malerbetrieb</span>
+      </a>
+      <button class="mobile-menu-btn" aria-label="Menü öffnen">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav class="nav-links">
+        <a href="index.html">Startseite</a>
+        <a href="leistungen.html">Leistungen</a>
+        <a href="ueber-uns.html">Über uns</a>
+        <a href="referenzen.html">Referenzen</a>
+        <a href="karriere.html" class="active">Karriere</a>
+        <a href="kontakt.html" class="btn btn-primary btn-nav-cta">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Karriere -->
+  <section style="background: linear-gradient(135deg, #1B5E20 0%, #2E7D32 55%, #388E3C 100%); padding: 100px 0 80px; position: relative; overflow: hidden;">
+    <div style="position:absolute; inset:0; background:url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'0.04\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+    <div class="container" style="position:relative; z-index:1; text-align:center;">
+      <div class="animate-on-scroll">
+        <span class="section-eyebrow" style="background:rgba(255,255,255,0.2); color:white; margin-bottom:20px; display:inline-block;">
+          <i class="fa-solid fa-users" style="margin-right:6px;"></i> Wir suchen Verstärkung
+        </span>
+        <h1 style="color:white; margin-bottom:20px;">Werde Teil unseres Teams!</h1>
+        <p style="color:rgba(255,255,255,0.88); font-size:1.15rem; max-width:680px; margin:0 auto 36px;">
+          Bei Weber Malerbetrieb arbeiten Menschen, die ihr Handwerk lieben – in einem familiären Team mit fairer Bezahlung, modernem Equipment und echten Karrierechancen.
+        </p>
+        <div style="display:flex; gap:14px; justify-content:center; flex-wrap:wrap;">
+          <a href="#bewerben" class="btn btn-outline-white btn-lg">
+            <i class="fa-solid fa-paper-plane"></i> Jetzt bewerben
+          </a>
+          <a href="tel:089123456" class="btn btn-outline-white btn-lg" style="border-color:rgba(255,255,255,0.45);">
+            <i class="fa-solid fa-phone"></i> 089 123456
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Warum bei uns arbeiten? -->
+  <section class="section-padding bg-light">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-eyebrow">Ihre Vorteile</span>
+        <h2>Warum Weber Malerbetrieb der richtige Arbeitgeber ist</h2>
+        <p>Wir bieten mehr als nur einen Arbeitsplatz – wir bieten eine berufliche Heimat mit echten Perspektiven.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="benefit-card animate-on-scroll">
+          <div class="benefit-icon"><i class="fa-solid fa-euro-sign"></i></div>
+          <div class="benefit-title">Faire & übertarifliche Bezahlung</div>
+          <div class="benefit-text">Ihre Arbeit ist uns etwas wert. Wir zahlen übertariflich, pünktlich und transparent – zuzüglich Weihnachts- und Urlaubsgeld.</div>
+        </div>
+        <div class="benefit-card animate-on-scroll" style="transition-delay:0.08s;">
+          <div class="benefit-icon"><i class="fa-solid fa-heart"></i></div>
+          <div class="benefit-title">Familiäres Betriebsklima</div>
+          <div class="benefit-text">Kein Anonym-Konzern, sondern ein eingespieltes Team. Wir kennen uns, helfen uns und feiern unsere Erfolge gemeinsam.</div>
+        </div>
+        <div class="benefit-card animate-on-scroll" style="transition-delay:0.16s;">
+          <div class="benefit-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="benefit-title">Weiterbildungsmöglichkeiten</div>
+          <div class="benefit-text">Ob Meisterschule, Speziallehrgänge oder neue Techniken – wir investieren in Ihre Entwicklung und unterstützen Weiterbildungen aktiv.</div>
+        </div>
+        <div class="benefit-card animate-on-scroll">
+          <div class="benefit-icon"><i class="fa-solid fa-car"></i></div>
+          <div class="benefit-title">Firmenwagen & Fahrtkostenzuschuss</div>
+          <div class="benefit-text">Für Monteure mit Schlüsselpositionen stellen wir einen Firmenwagen. Allen anderen erstatten wir Fahrtkosten oder stellen Firmenfahrzeuge zur Verfügung.</div>
+        </div>
+        <div class="benefit-card animate-on-scroll" style="transition-delay:0.08s;">
+          <div class="benefit-icon"><i class="fa-solid fa-tools"></i></div>
+          <div class="benefit-title">Moderne Ausstattung</div>
+          <div class="benefit-text">Wir arbeiten mit professionellem, neuem Werkzeug und Maschinen. Hochwertige Schutzausrüstung und Arbeitskleidung werden gestellt.</div>
+        </div>
+        <div class="benefit-card animate-on-scroll" style="transition-delay:0.16s;">
+          <div class="benefit-icon"><i class="fa-solid fa-clock"></i></div>
+          <div class="benefit-title">Geregelte Arbeitszeiten</div>
+          <div class="benefit-text">Mo–Fr, planbare Arbeitszeiten ohne Wochenendschichten. Mehr Zeit für Familie und Freizeit – das ist uns wichtig.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Offene Stellen -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-eyebrow">Offene Stellen</span>
+        <h2>Aktuelle Stellenangebote</h2>
+        <p>Wir suchen engagierte Fachkräfte und Quereinsteiger, die mit uns wachsen wollen.</p>
+      </div>
+
+      <div style="display:flex; flex-direction:column; gap:18px; max-width:820px; margin:0 auto;">
+
+        <div class="job-card animate-on-scroll">
+          <div class="job-card-icon"><i class="fa-solid fa-paint-roller"></i></div>
+          <div class="job-card-body">
+            <h3>Maler/in & Lackierer/in (Geselle/in)</h3>
+            <p>Sie sind ausgebildete/r Maler/in und Lackierer/in mit Gesellenbrief und Leidenschaft für saubere Arbeit? Dann suchen wir genau Sie!</p>
+            <div>
+              <span class="job-tag"><i class="fa-solid fa-map-marker-alt"></i> München</span>
+              <span class="job-tag"><i class="fa-solid fa-briefcase"></i> Vollzeit</span>
+              <span class="job-tag"><i class="fa-solid fa-clock"></i> Ab sofort</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="job-card animate-on-scroll" style="transition-delay:0.06s;">
+          <div class="job-card-icon"><i class="fa-solid fa-award"></i></div>
+          <div class="job-card-body">
+            <h3>Malermeister/in (Bauleitung)</h3>
+            <p>Als Malermeister/in übernehmen Sie die Bauleitung für unsere Projekte und unterstützen die Geschäftsleitung bei der Qualitätssicherung.</p>
+            <div>
+              <span class="job-tag"><i class="fa-solid fa-map-marker-alt"></i> München</span>
+              <span class="job-tag"><i class="fa-solid fa-briefcase"></i> Vollzeit</span>
+              <span class="job-tag"><i class="fa-solid fa-star"></i> Schlüsselposition</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="job-card animate-on-scroll" style="transition-delay:0.12s;">
+          <div class="job-card-icon"><i class="fa-solid fa-layer-group"></i></div>
+          <div class="job-card-body">
+            <h3>Bodenleger/in</h3>
+            <p>Sie beherrschen die Verlegung von Laminat, Vinyl und Teppich? Wir erweitern unser Bodenbelag-Team und freuen uns über Ihre Bewerbung.</p>
+            <div>
+              <span class="job-tag"><i class="fa-solid fa-map-marker-alt"></i> München</span>
+              <span class="job-tag"><i class="fa-solid fa-briefcase"></i> Vollzeit / Teilzeit</span>
+              <span class="job-tag"><i class="fa-solid fa-clock"></i> Ab sofort</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="job-card animate-on-scroll" style="transition-delay:0.18s;">
+          <div class="job-card-icon"><i class="fa-solid fa-user-graduate"></i></div>
+          <div class="job-card-body">
+            <h3>Auszubildende/r – Maler/in & Lackierer/in</h3>
+            <p>Sie möchten ein solides Handwerk erlernen? Wir bilden aus! Als Ausbildungsbetrieb begleiten wir Sie durch Ihre gesamte Lehrzeit mit persönlicher Betreuung.</p>
+            <div>
+              <span class="job-tag"><i class="fa-solid fa-map-marker-alt"></i> München</span>
+              <span class="job-tag"><i class="fa-solid fa-book"></i> Ausbildung</span>
+              <span class="job-tag"><i class="fa-solid fa-calendar"></i> Ab September</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="job-card animate-on-scroll" style="transition-delay:0.24s;">
+          <div class="job-card-icon"><i class="fa-solid fa-door-open"></i></div>
+          <div class="job-card-body">
+            <h3>Quereinsteiger/in (Helfer im Maler-Handwerk)</h3>
+            <p>Kein Abschluss, aber handwerkliches Geschick und Einsatzbereitschaft? Wir geben auch Quereinsteigern eine faire Chance, sich zu beweisen.</p>
+            <div>
+              <span class="job-tag"><i class="fa-solid fa-map-marker-alt"></i> München</span>
+              <span class="job-tag"><i class="fa-solid fa-briefcase"></i> Vollzeit</span>
+              <span class="job-tag"><i class="fa-solid fa-thumbs-up"></i> Ohne Vorkenntnisse</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Das sagen unsere Mitarbeiter -->
+  <section class="section-padding" style="background:var(--color-dark);">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-eyebrow" style="background:rgba(255,255,255,0.1); color:rgba(255,255,255,0.85);">Stimmen aus dem Team</span>
+        <h2 style="color:white;">Das sagen unsere Mitarbeiter</h2>
+      </div>
+      <div class="grid grid-3">
+        <div class="testimonial-card animate-on-scroll">
+          <div style="font-size:2rem; color:var(--color-primary-light); margin-bottom:12px;"><i class="fa-solid fa-quote-left"></i></div>
+          <p>„Ich arbeite seit 8 Jahren bei Weber und würde nie wechseln wollen. Das Team ist wie eine zweite Familie, die Bezahlung stimmt und ich konnte meinen Meister berufsbegleitend machen."</p>
+          <div class="testimonial-author" style="margin-top:20px;">
+            <div class="testimonial-avatar">MH</div>
+            <div>
+              <div class="testimonial-name">Michael H.</div>
+              <div class="testimonial-meta">Malergeselle, seit 2016</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card animate-on-scroll" style="transition-delay:0.1s;">
+          <div style="font-size:2rem; color:var(--color-primary-light); margin-bottom:12px;"><i class="fa-solid fa-quote-left"></i></div>
+          <p>„Als Quereinsteiger war ich zuerst unsicher. Aber das Team hat mich von Anfang an unterstützt. Heute nach 2 Jahren bin ich vollwertiger Maler und stolz auf meine Arbeit!"</p>
+          <div class="testimonial-author" style="margin-top:20px;">
+            <div class="testimonial-avatar">TK</div>
+            <div>
+              <div class="testimonial-name">Thomas K.</div>
+              <div class="testimonial-meta">Malerhelfer, seit 2022</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card animate-on-scroll" style="transition-delay:0.2s;">
+          <div style="font-size:2rem; color:var(--color-primary-light); margin-bottom:12px;"><i class="fa-solid fa-quote-left"></i></div>
+          <p>„Die Arbeitszeiten sind planbar, das Werkzeug ist top und der Chef respektiert jeden im Team. Eine Stelle, bei der man morgens gerne aufsteht – das ist bei Weber wirklich so!"</p>
+          <div class="testimonial-author" style="margin-top:20px;">
+            <div class="testimonial-avatar">JM</div>
+            <div>
+              <div class="testimonial-name">Jonas M.</div>
+              <div class="testimonial-meta">Malergeselle, seit 2020</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bewerbungsformular -->
+  <section class="section-padding bg-light" id="bewerben">
+    <div class="container" style="max-width:820px;">
+      <div class="section-header animate-on-scroll">
+        <span class="section-eyebrow">Bewerbung</span>
+        <h2>Jetzt bewerben – einfach & schnell</h2>
+        <p>Füllen Sie das Formular aus – wir melden uns innerhalb von 48 Stunden für ein persönliches Gespräch.</p>
+      </div>
+
+      <div class="form-card animate-on-scroll">
+        <form id="job-form" action="https://formspree.io/f/YYYYYYYY" method="POST">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="job-vorname">Vorname *</label>
+              <input type="text" class="form-control" name="job_vorname" id="job-vorname" placeholder="Max" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="job-nachname">Nachname *</label>
+              <input type="text" class="form-control" name="job_nachname" id="job-nachname" placeholder="Mustermann" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="job-telefon">Telefonnummer *</label>
+              <input type="tel" class="form-control" name="job_telefon" id="job-telefon" placeholder="089 12345678" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="job-email">E-Mail-Adresse *</label>
+              <input type="email" class="form-control" name="job_email" id="job-email" placeholder="max@email.de" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="job-position">Gewünschte Position *</label>
+              <select class="form-control" name="job_position" id="job-position" required>
+                <option value="">Bitte wählen</option>
+                <option>Maler/in &amp; Lackierer/in (Geselle/in)</option>
+                <option>Malermeister/in</option>
+                <option>Bodenleger/in</option>
+                <option>Auszubildende/r – Maler/in</option>
+                <option>Quereinsteiger/in</option>
+                <option>Sonstige Position</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="job-start">Verfügbar ab *</label>
+              <select class="form-control" name="job_start" id="job-start" required>
+                <option value="">Bitte wählen</option>
+                <option>Sofort</option>
+                <option>In 1 Monat</option>
+                <option>In 3 Monaten</option>
+                <option>Nach Vereinbarung</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="job-motivation">Warum möchten Sie bei Weber Malerbetrieb arbeiten?</label>
+            <textarea class="form-control" name="job_motivation" id="job-motivation" rows="4" placeholder="Erzählen Sie uns, was Sie antreibt und was Sie mitbringen – wir freuen uns auf Ihre Vorstellung!"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="job-lebenslauf">Lebenslauf hochladen (PDF)</label>
+            <input type="file" class="form-control" name="job_lebenslauf" id="job-lebenslauf" accept=".pdf,.doc,.docx" style="padding:10px 14px;">
+            <p style="font-size:0.82rem; color:var(--color-gray); margin-top:6px;"><i class="fa-solid fa-circle-info"></i> PDF oder Word-Dokument, max. 5 MB</p>
+          </div>
+
+          <div class="form-group">
+            <div class="form-check">
+              <input type="checkbox" id="job-datenschutz" name="job_datenschutz" required>
+              <label for="job-datenschutz">Ich habe die <a href="datenschutz.html" target="_blank">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Bewerberdaten zu. *</label>
+            </div>
+          </div>
+
+          <div style="background:var(--color-primary-xlight); border-radius:var(--radius-md); padding:16px 20px; margin-bottom:24px; display:flex; align-items:center; gap:14px;">
+            <i class="fa-solid fa-circle-check" style="color:var(--color-primary); font-size:1.4rem; flex-shrink:0;"></i>
+            <p style="color:var(--color-primary-dark); font-size:0.92rem; margin:0;">
+              Wir melden uns innerhalb von <strong>48 Stunden</strong> für ein persönliches Kennenlerngespräch bei Ihnen.
+            </p>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg btn-submit-job" id="submit-bewerbung-btn" style="width:100%; justify-content:center;">
+            <i class="fa-solid fa-paper-plane"></i> Jetzt bewerben
+          </button>
+
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container animate-on-scroll">
+      <span class="section-eyebrow" style="background:rgba(255,255,255,0.2); color:white;">Fragen zur Stelle?</span>
+      <h2>Wir beantworten Ihre Fragen gerne!</h2>
+      <p>Rufen Sie uns an oder schreiben Sie uns – wir freuen uns auf Ihre Nachricht.</p>
+      <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+        <a href="tel:089123456" class="btn" style="background:white; color:var(--color-primary); font-weight:700;">
+          <i class="fa-solid fa-phone"></i> 089 123456
+        </a>
+        <a href="mailto:info@weber-malerbetrieb-beispiel.de" class="btn btn-outline-white">
+          <i class="fa-solid fa-envelope"></i> Per E-Mail schreiben
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">
+            <div class="logo-icon"><i class="fa-solid fa-paint-roller"></i></div>
+            Weber <span>Malerbetrieb</span>
+          </div>
+          <p class="footer-desc">Ihr professioneller Malerbetrieb in München und Umgebung. Qualität, Zuverlässigkeit und faire Festpreise seit 1995.</p>
+        </div>
+        <div>
+          <h4>Kontakt</h4>
+          <div class="footer-contact-item"><i class="fa-solid fa-location-dot"></i><span>Malerstraße 12<br>80331 München</span></div>
+          <div class="footer-contact-item"><i class="fa-solid fa-phone"></i><a href="tel:089123456">089 123456</a></div>
+          <div class="footer-contact-item"><i class="fa-solid fa-envelope"></i><a href="mailto:info@weber-malerbetrieb-beispiel.de">info@weber-malerbetrieb-beispiel.de</a></div>
+          <div class="footer-contact-item"><i class="fa-solid fa-clock"></i><span>Mo–Fr: 7:00–18:00 Uhr</span></div>
+        </div>
+        <div>
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="leistungen.html">Leistungen</a></li>
+            <li><a href="ueber-uns.html">Über uns</a></li>
+            <li><a href="referenzen.html">Referenzen</a></li>
+            <li><a href="karriere.html">Karriere</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Rechtliches</h4>
+          <ul class="footer-links">
+            <li><a href="impressum.html">Impressum</a></li>
+            <li><a href="datenschutz.html">Datenschutz</a></li>
+          </ul>
+          <h4 style="margin-top:28px;">Jetzt anfragen</h4>
+          <a href="kontakt.html" class="btn btn-primary" style="padding:12px 22px; font-size:0.93rem; margin-top:10px; display:inline-flex;">
+            <i class="fa-solid fa-paper-plane"></i> Kostenlos anfragen
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Weber Malerbetrieb München. Diese Website ist ein fiktives Beispielprojekt.
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/4989123456?text=Hallo%20Weber%20Malerbetrieb%2C%20ich%20h%C3%A4tte%20eine%20Anfrage..." target="_blank" class="whatsapp-btn" aria-label="WhatsApp Kontakt">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <div id="cookie-banner" class="cookie-banner">
+    <div>
+      <h4>Wir verwenden Cookies</h4>
+      <p>Um unsere Website optimal zu gestalten, verwenden wir Cookies. <a href="datenschutz.html">Weitere Informationen</a>.</p>
+    </div>
+    <div class="cookie-buttons">
+      <button id="decline-cookies" class="btn btn-outline-white btn-sm">Ablehnen</button>
+      <button id="accept-cookies" class="btn btn-primary btn-sm">Akzeptieren</button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
