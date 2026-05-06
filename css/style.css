@@ -134,7 +134,7 @@ p { line-height: 1.72; }
 .nav-links a:hover, .nav-links a.active { color: var(--color-primary); background: var(--color-primary-xlight); }
 .btn-nav-cta { padding: 11px 24px !important; color: white !important; background: var(--color-primary) !important; }
 .btn-nav-cta:hover { background: var(--color-primary-dark) !important; }
-.mobile-menu-btn { display: none; font-size: 1.4rem; color: var(--color-dark); padding: 8px; position: relative; z-index: 1001; }
+.mobile-menu-btn { display: none; font-size: 1.4rem; color: var(--color-dark); padding: 8px; position: relative; z-index: 10000; }
 
 /* ---- Hero ---- */
 .hero {
@@ -541,15 +541,43 @@ textarea.form-control { resize: vertical; min-height: 120px; }
   .section-padding { padding: 64px 0; }
   .mobile-menu-btn { display: flex; }
   .nav-links {
-    position: fixed; inset: 0; top: 0;
-    background: white; flex-direction: column; gap: 0;
-    padding: var(--nav-height) 0 24px; transform: translateX(100%); transition: transform 0.3s;
-    overflow-y: auto; z-index: 1000; border-top: 1px solid var(--color-gray-light);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #FFFFFF;
+    flex-direction: column;
+    gap: 0;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    transform: translateX(100%);
+    transition: transform 0.3s cubic-bezier(.4,0,.2,1);
+    overflow-y: auto;
+    z-index: 9999;
     box-shadow: var(--shadow-lg);
   }
-  .nav-links.open { transform: translateX(0); }
-  .nav-links a { width: 100%; padding: 16px 24px; border-radius: 0; font-size: 1.1rem; }
-  .btn-nav-cta { margin: 18px 24px 0; width: auto; border-radius: var(--radius-md) !important; }
+  .nav-links.open {
+    transform: translateX(0);
+    display: flex;
+  }
+  .nav-links a {
+    width: 100%;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    padding: 14px 24px;
+    border-radius: 0;
+    font-size: 1.15rem;
+    border-bottom: 1px solid var(--color-gray-light);
+  }
+  .btn-nav-cta {
+    margin: 20px 24px 0;
+    width: calc(100% - 48px);
+    justify-content: center;
+    min-height: 54px;
+    border-radius: var(--radius-md) !important;
+  }
   .grid-3 { grid-template-columns: 1fr; }
   .grid-2 { grid-template-columns: 1fr; }
   .grid-4 { grid-template-columns: 1fr 1fr; }
