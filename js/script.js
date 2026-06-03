@@ -151,3 +151,36 @@ const statObserver = new IntersectionObserver((entries) => {
 }, { threshold: 0.5 });
 
 document.querySelectorAll('.stat-number[data-target]').forEach(el => statObserver.observe(el));
+
+// ========================
+// Firma Name Replacement
+// ========================
+(function () {
+  var params = new URLSearchParams(window.location.search);
+  var firma = params.get('firma');
+  if (!firma) return;
+
+  var demoNames = [
+    'Weber Malerbetrieb München',
+    'Weber Malerbetrieb',
+    'Malerbetrieb Weber',
+    'Weber Maler',
+  ];
+
+  function replaceText(node, oldStr, newStr) {
+    if (node.nodeType === 3) {
+      if (node.textContent.indexOf(oldStr) !== -1)
+        node.textContent = node.textContent.split(oldStr).join(newStr);
+    } else if (node.nodeType === 1 && node.tagName !== 'SCRIPT' && node.tagName !== 'STYLE') {
+      for (var i = 0; i < node.childNodes.length; i++)
+        replaceText(node.childNodes[i], oldStr, newStr);
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    demoNames.forEach(function (n) {
+      replaceText(document.body, n, firma);
+    });
+    document.title = demoNames.reduce(function (t, n) { return t.split(n).join(firma); }, document.title);
+  });
+})();
